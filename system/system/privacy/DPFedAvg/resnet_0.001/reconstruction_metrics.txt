@@ -1,0 +1,27 @@
+--- Results from DPFedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.0814
+Average Peak Signal-to-Noise Ratio (PSNR): 16.9165 dB
+Average Structural Similarity (SSIM): 0.1781
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1094
+-----------------------------------
+
+--- Results from DPFedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4498
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4900 dB
+Average Structural Similarity (SSIM): 0.0912
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.9962
+-----------------------------------
+
+--- Results from DPFedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3146
+Average Peak Signal-to-Noise Ratio (PSNR): 11.0431 dB
+Average Structural Similarity (SSIM): 0.1028
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.9986
+-----------------------------------
+

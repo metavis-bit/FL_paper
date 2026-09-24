@@ -1,0 +1,27 @@
+--- Results from reconstruction run ---
+Decision Layer Setting: 6
+Average Mean Squared Error (MSE): 0.8231
+Average Peak Signal-to-Noise Ratio (PSNR): inf dB
+Average Structural Similarity (SSIM): 0.1260
+Average Recognition Rate on Reconstructed Data: 0.2500
+Average Downstream Classifier Confidence: 0.1133
+-----------------------------------
+
+--- Results from reconstruction run ---
+Decision Layer Setting: 6
+Average Mean Squared Error (MSE): 0.8024
+Average Peak Signal-to-Noise Ratio (PSNR): inf dB
+Average Structural Similarity (SSIM): 0.0894
+Average Recognition Rate on Reconstructed Data: 0.2500
+Average Downstream Classifier Confidence: 0.1100
+-----------------------------------
+
+--- Results from reconstruction run ---
+Decision Layer Setting: 6
+Average Mean Squared Error (MSE): 0.8302
+Average Peak Signal-to-Noise Ratio (PSNR): inf dB
+Average Structural Similarity (SSIM): 0.0899
+Average Recognition Rate on Reconstructed Data: 0.2500
+Average Downstream Classifier Confidence: 1.0000
+-----------------------------------
+

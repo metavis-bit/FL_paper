@@ -1,0 +1,936 @@
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1799
+Average Peak Signal-to-Noise Ratio (PSNR): 13.4694 dB
+Average Structural Similarity (SSIM): 0.2546
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1181
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4504
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4847 dB
+Average Structural Similarity (SSIM): 0.1359
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5804
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.4667
+Average Peak Signal-to-Noise Ratio (PSNR): 4.3572 dB
+Average Structural Similarity (SSIM): 0.0263
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.9986
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.4290
+Average Peak Signal-to-Noise Ratio (PSNR): 4.4704 dB
+Average Structural Similarity (SSIM): 0.0170
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 1.0000
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.3805
+Average Peak Signal-to-Noise Ratio (PSNR): 4.6202 dB
+Average Structural Similarity (SSIM): 0.0163
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.5995
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4524
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4657 dB
+Average Structural Similarity (SSIM): 0.0993
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1161
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.4152
+Average Peak Signal-to-Noise Ratio (PSNR): 4.5124 dB
+Average Structural Similarity (SSIM): 0.0170
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.7697
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5041
+Average Peak Signal-to-Noise Ratio (PSNR): 8.9953 dB
+Average Structural Similarity (SSIM): 0.0855
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.8294
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.3305
+Average Peak Signal-to-Noise Ratio (PSNR): 4.7806 dB
+Average Structural Similarity (SSIM): 0.0107
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.3735
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4574
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4175 dB
+Average Structural Similarity (SSIM): 0.1084
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5218
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.4682
+Average Peak Signal-to-Noise Ratio (PSNR): 4.3527 dB
+Average Structural Similarity (SSIM): 0.0173
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3512
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.3876
+Average Peak Signal-to-Noise Ratio (PSNR): 4.5978 dB
+Average Structural Similarity (SSIM): 0.0251
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.6964
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.4239
+Average Peak Signal-to-Noise Ratio (PSNR): 4.4857 dB
+Average Structural Similarity (SSIM): 0.0216
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3961
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3092
+Average Peak Signal-to-Noise Ratio (PSNR): 11.1185 dB
+Average Structural Similarity (SSIM): 0.1143
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2683
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.3217
+Average Peak Signal-to-Noise Ratio (PSNR): 4.8092 dB
+Average Structural Similarity (SSIM): 0.0158
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5060
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.3537
+Average Peak Signal-to-Noise Ratio (PSNR): 4.7053 dB
+Average Structural Similarity (SSIM): 0.0156
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3828
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.2916
+Average Peak Signal-to-Noise Ratio (PSNR): 4.9092 dB
+Average Structural Similarity (SSIM): 0.0149
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3299
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6425
+Average Peak Signal-to-Noise Ratio (PSNR): 7.9416 dB
+Average Structural Similarity (SSIM): 0.0564
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3043
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.5924
+Average Peak Signal-to-Noise Ratio (PSNR): 4.0000 dB
+Average Structural Similarity (SSIM): 0.0290
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3429
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.5284
+Average Peak Signal-to-Noise Ratio (PSNR): 4.1783 dB
+Average Structural Similarity (SSIM): 0.0189
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 1.0000
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.0808
+Average Peak Signal-to-Noise Ratio (PSNR): 16.9491 dB
+Average Structural Similarity (SSIM): 0.2338
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1126
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2321
+Average Peak Signal-to-Noise Ratio (PSNR): 12.3632 dB
+Average Structural Similarity (SSIM): 0.3063
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 1.0000
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6427
+Average Peak Signal-to-Noise Ratio (PSNR): 7.9407 dB
+Average Structural Similarity (SSIM): 0.1147
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.9782
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3709
+Average Peak Signal-to-Noise Ratio (PSNR): 10.3285 dB
+Average Structural Similarity (SSIM): 0.0847
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3064
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.9355
+Average Peak Signal-to-Noise Ratio (PSNR): 6.3103 dB
+Average Structural Similarity (SSIM): 0.0968
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2212
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3057
+Average Peak Signal-to-Noise Ratio (PSNR): 11.1677 dB
+Average Structural Similarity (SSIM): 0.0850
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.6022
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5721
+Average Peak Signal-to-Noise Ratio (PSNR): 8.4459 dB
+Average Structural Similarity (SSIM): 0.1766
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2656
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2048
+Average Peak Signal-to-Noise Ratio (PSNR): 12.9079 dB
+Average Structural Similarity (SSIM): 0.1017
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3642
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3140
+Average Peak Signal-to-Noise Ratio (PSNR): 11.0514 dB
+Average Structural Similarity (SSIM): 0.0617
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.4183
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6659
+Average Peak Signal-to-Noise Ratio (PSNR): 7.7862 dB
+Average Structural Similarity (SSIM): 0.0398
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.7611
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1842
+Average Peak Signal-to-Noise Ratio (PSNR): 13.3673 dB
+Average Structural Similarity (SSIM): 0.1544
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.7503
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5153
+Average Peak Signal-to-Noise Ratio (PSNR): 8.9000 dB
+Average Structural Similarity (SSIM): 0.0744
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.9728
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1324
+Average Peak Signal-to-Noise Ratio (PSNR): 14.8028 dB
+Average Structural Similarity (SSIM): 0.2624
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1736
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3837
+Average Peak Signal-to-Noise Ratio (PSNR): 10.1810 dB
+Average Structural Similarity (SSIM): 0.1088
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.7681
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4800
+Average Peak Signal-to-Noise Ratio (PSNR): 9.2079 dB
+Average Structural Similarity (SSIM): 0.0865
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5354
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1271
+Average Peak Signal-to-Noise Ratio (PSNR): 14.9797 dB
+Average Structural Similarity (SSIM): 0.2174
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3979
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5174
+Average Peak Signal-to-Noise Ratio (PSNR): 8.8825 dB
+Average Structural Similarity (SSIM): 0.0685
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2555
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5567
+Average Peak Signal-to-Noise Ratio (PSNR): 8.5645 dB
+Average Structural Similarity (SSIM): 0.1263
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1875
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4412
+Average Peak Signal-to-Noise Ratio (PSNR): 9.5743 dB
+Average Structural Similarity (SSIM): 0.1699
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2219
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5975
+Average Peak Signal-to-Noise Ratio (PSNR): 8.2569 dB
+Average Structural Similarity (SSIM): 0.0564
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1699
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.8571
+Average Peak Signal-to-Noise Ratio (PSNR): 6.6905 dB
+Average Structural Similarity (SSIM): 0.0449
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1705
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7710
+Average Peak Signal-to-Noise Ratio (PSNR): 7.1501 dB
+Average Structural Similarity (SSIM): 0.0551
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3520
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7924
+Average Peak Signal-to-Noise Ratio (PSNR): 7.0312 dB
+Average Structural Similarity (SSIM): 0.0686
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.6772
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.9613
+Average Peak Signal-to-Noise Ratio (PSNR): 6.1919 dB
+Average Structural Similarity (SSIM): 0.0286
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1662
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7694
+Average Peak Signal-to-Noise Ratio (PSNR): 7.1591 dB
+Average Structural Similarity (SSIM): 0.0670
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1769
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7406
+Average Peak Signal-to-Noise Ratio (PSNR): 7.3248 dB
+Average Structural Similarity (SSIM): 0.0788
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1866
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6793
+Average Peak Signal-to-Noise Ratio (PSNR): 7.6998 dB
+Average Structural Similarity (SSIM): 0.0597
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.8361
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.2112
+Average Peak Signal-to-Noise Ratio (PSNR): 5.1885 dB
+Average Structural Similarity (SSIM): 0.0314
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1964
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6493
+Average Peak Signal-to-Noise Ratio (PSNR): 7.8962 dB
+Average Structural Similarity (SSIM): 0.1025
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3847
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7185
+Average Peak Signal-to-Noise Ratio (PSNR): 7.4566 dB
+Average Structural Similarity (SSIM): 0.1150
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2759
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6229
+Average Peak Signal-to-Noise Ratio (PSNR): 8.0767 dB
+Average Structural Similarity (SSIM): 0.0553
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.6592
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4985
+Average Peak Signal-to-Noise Ratio (PSNR): 9.0436 dB
+Average Structural Similarity (SSIM): 0.1621
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2573
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2519
+Average Peak Signal-to-Noise Ratio (PSNR): 12.0079 dB
+Average Structural Similarity (SSIM): 0.1387
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2190
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4102
+Average Peak Signal-to-Noise Ratio (PSNR): 9.8905 dB
+Average Structural Similarity (SSIM): 0.1033
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.4230
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1665
+Average Peak Signal-to-Noise Ratio (PSNR): 13.8057 dB
+Average Structural Similarity (SSIM): 0.2100
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2895
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2479
+Average Peak Signal-to-Noise Ratio (PSNR): 12.0770 dB
+Average Structural Similarity (SSIM): 0.1226
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.6562
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.9124
+Average Peak Signal-to-Noise Ratio (PSNR): 6.4189 dB
+Average Structural Similarity (SSIM): 0.0106
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2900
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4574
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4180 dB
+Average Structural Similarity (SSIM): 0.0849
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.4252
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3947
+Average Peak Signal-to-Noise Ratio (PSNR): 10.0577 dB
+Average Structural Similarity (SSIM): 0.0832
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.4751
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5201
+Average Peak Signal-to-Noise Ratio (PSNR): 8.8600 dB
+Average Structural Similarity (SSIM): 0.0379
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1991
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.1273
+Average Peak Signal-to-Noise Ratio (PSNR): 5.5003 dB
+Average Structural Similarity (SSIM): 0.0310
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.7425
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6176
+Average Peak Signal-to-Noise Ratio (PSNR): 8.1135 dB
+Average Structural Similarity (SSIM): 0.1288
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2605
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4778
+Average Peak Signal-to-Noise Ratio (PSNR): 9.2282 dB
+Average Structural Similarity (SSIM): 0.0990
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.4418
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4549
+Average Peak Signal-to-Noise Ratio (PSNR): 9.4415 dB
+Average Structural Similarity (SSIM): 0.0902
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2980
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.8014
+Average Peak Signal-to-Noise Ratio (PSNR): 6.9820 dB
+Average Structural Similarity (SSIM): 0.1280
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.4209
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1518
+Average Peak Signal-to-Noise Ratio (PSNR): 14.2082 dB
+Average Structural Similarity (SSIM): 0.1653
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1965
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2261
+Average Peak Signal-to-Noise Ratio (PSNR): 12.4773 dB
+Average Structural Similarity (SSIM): 0.1966
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3351
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5445
+Average Peak Signal-to-Noise Ratio (PSNR): 8.6609 dB
+Average Structural Similarity (SSIM): 0.1196
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.4349
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5459
+Average Peak Signal-to-Noise Ratio (PSNR): 8.6497 dB
+Average Structural Similarity (SSIM): 0.0939
+Average Recognition Rate on Reconstructed Data: 1.0000
+Average Downstream Classifier Confidence: 0.1971
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2084
+Average Peak Signal-to-Noise Ratio (PSNR): 12.8317 dB
+Average Structural Similarity (SSIM): 0.1934
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2953
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4280
+Average Peak Signal-to-Noise Ratio (PSNR): 9.7061 dB
+Average Structural Similarity (SSIM): 0.1448
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1945
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4380
+Average Peak Signal-to-Noise Ratio (PSNR): 9.6056 dB
+Average Structural Similarity (SSIM): 0.0598
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3073
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.1959
+Average Peak Signal-to-Noise Ratio (PSNR): 13.1011 dB
+Average Structural Similarity (SSIM): 0.2173
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5102
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2068
+Average Peak Signal-to-Noise Ratio (PSNR): 12.8648 dB
+Average Structural Similarity (SSIM): 0.1697
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3833
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5169
+Average Peak Signal-to-Noise Ratio (PSNR): 8.8865 dB
+Average Structural Similarity (SSIM): 0.1089
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1784
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4938
+Average Peak Signal-to-Noise Ratio (PSNR): 9.0847 dB
+Average Structural Similarity (SSIM): 0.1037
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.5094
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.9369
+Average Peak Signal-to-Noise Ratio (PSNR): 6.3039 dB
+Average Structural Similarity (SSIM): 0.1126
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.6381
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.1073
+Average Peak Signal-to-Noise Ratio (PSNR): 5.5778 dB
+Average Structural Similarity (SSIM): 0.0321
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1731
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7253
+Average Peak Signal-to-Noise Ratio (PSNR): 7.4154 dB
+Average Structural Similarity (SSIM): 0.0433
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2702
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.8906
+Average Peak Signal-to-Noise Ratio (PSNR): 6.5236 dB
+Average Structural Similarity (SSIM): 0.0496
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.4949
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.1322
+Average Peak Signal-to-Noise Ratio (PSNR): 5.4813 dB
+Average Structural Similarity (SSIM): 0.0367
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.6023
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.8283
+Average Peak Signal-to-Noise Ratio (PSNR): 6.8388 dB
+Average Structural Similarity (SSIM): 0.0584
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.2231
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2844
+Average Peak Signal-to-Noise Ratio (PSNR): 11.4811 dB
+Average Structural Similarity (SSIM): 0.1553
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1621
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6333
+Average Peak Signal-to-Noise Ratio (PSNR): 8.0042 dB
+Average Structural Similarity (SSIM): 0.0527
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2171
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6745
+Average Peak Signal-to-Noise Ratio (PSNR): 7.7308 dB
+Average Structural Similarity (SSIM): 0.0956
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1969
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7415
+Average Peak Signal-to-Noise Ratio (PSNR): 7.3192 dB
+Average Structural Similarity (SSIM): 0.0754
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2191
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.8067
+Average Peak Signal-to-Noise Ratio (PSNR): 6.9537 dB
+Average Structural Similarity (SSIM): 0.0524
+Average Recognition Rate on Reconstructed Data: 1.0000
+Average Downstream Classifier Confidence: 0.1913
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5705
+Average Peak Signal-to-Noise Ratio (PSNR): 8.4584 dB
+Average Structural Similarity (SSIM): 0.0776
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1536
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4276
+Average Peak Signal-to-Noise Ratio (PSNR): 9.7099 dB
+Average Structural Similarity (SSIM): 0.1391
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3726
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.6155
+Average Peak Signal-to-Noise Ratio (PSNR): 8.1286 dB
+Average Structural Similarity (SSIM): 0.0781
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1390
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4822
+Average Peak Signal-to-Noise Ratio (PSNR): 9.1887 dB
+Average Structural Similarity (SSIM): 0.1188
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2238
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2222
+Average Peak Signal-to-Noise Ratio (PSNR): 12.5538 dB
+Average Structural Similarity (SSIM): 0.0863
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 1.0000
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.7455
+Average Peak Signal-to-Noise Ratio (PSNR): 7.2964 dB
+Average Structural Similarity (SSIM): 0.0531
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.7845
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3528
+Average Peak Signal-to-Noise Ratio (PSNR): 10.5452 dB
+Average Structural Similarity (SSIM): 0.0774
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.8699
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.2618
+Average Peak Signal-to-Noise Ratio (PSNR): 5.0109 dB
+Average Structural Similarity (SSIM): 0.0478
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1439
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.0947
+Average Peak Signal-to-Noise Ratio (PSNR): 16.2559 dB
+Average Structural Similarity (SSIM): 0.3931
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1170
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3284
+Average Peak Signal-to-Noise Ratio (PSNR): 10.8568 dB
+Average Structural Similarity (SSIM): 0.1129
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.1336
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3258
+Average Peak Signal-to-Noise Ratio (PSNR): 10.8907 dB
+Average Structural Similarity (SSIM): 0.1033
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1693
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3725
+Average Peak Signal-to-Noise Ratio (PSNR): 10.3097 dB
+Average Structural Similarity (SSIM): 0.1602
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.3418
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.5765
+Average Peak Signal-to-Noise Ratio (PSNR): 8.4124 dB
+Average Structural Similarity (SSIM): 0.1019
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2895
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.3930
+Average Peak Signal-to-Noise Ratio (PSNR): 10.0766 dB
+Average Structural Similarity (SSIM): 0.1100
+Average Recognition Rate on Reconstructed Data: 0.5000
+Average Downstream Classifier Confidence: 0.3571
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.2152
+Average Peak Signal-to-Noise Ratio (PSNR): 12.6919 dB
+Average Structural Similarity (SSIM): 0.0955
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1392
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 0.4325
+Average Peak Signal-to-Noise Ratio (PSNR): 9.6607 dB
+Average Structural Similarity (SSIM): 0.1005
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.2012
+-----------------------------------
+
+--- Results from FedAvg reconstruction run ---
+Noise Multiplier: 0.001
+Average Mean Squared Error (MSE): 1.2676
+Average Peak Signal-to-Noise Ratio (PSNR): 4.9909 dB
+Average Structural Similarity (SSIM): 0.0497
+Average Recognition Rate on Reconstructed Data: 0.0000
+Average Downstream Classifier Confidence: 0.1062
+-----------------------------------
+
