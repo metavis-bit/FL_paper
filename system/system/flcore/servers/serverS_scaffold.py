@@ -30,11 +30,11 @@ import torch.nn as nn
 from flcore.servers.inversefed.pytorch_ssim_master import pytorch_ssim
 import numpy as np
 from threading import Thread
-import math
 import torchvision.transforms as transforms
 from sklearn.preprocessing import label_binarize
 from utils.data_utils import read_client_data
 from torch.utils.data import DataLoader
+from flcore.privacy_cost import privacy_cost
 
 ratio = 0.1
 total_layer = 58
@@ -88,6 +88,7 @@ class S_SCAFFOLD(Server):
 
             # print("当前回合总成本",self.total_train_cost)
             for client in self.selected_clients:
+                client._adaptive_round = i
                 client.train(client_decision_list,self.average_decision_l)
                 total_cost += client.trained_cost[-1]
 
@@ -193,7 +194,7 @@ class S_SCAFFOLD(Server):
         # 每个client的决策是一个标量，范围属于[min_decision, total_layer]
         # 总成本函数包括三部分：隐私成本、能耗成本和模型性能成本
         # 其中： ratio := (1 - self.average_decision_l / total_layer) * 100
-        # 隐私成本为：a = 0.85; b = 0.68 privacy_cost = (1 / math.pow(math.e, a * ratio + b) - 1 / math.pow(math.e, a * 1 + b)) / \(1 / math.pow(math.e, a * 0 + b) - 1 / math.pow(math.e, a * 1 + b))
+        # Privacy cost is parameter-free: exp(-correction ratio).
         # 能耗成本为：energy_cost = (0.82 * clients.num_batches / (60000/total_client/ batch_size) + 0.09 + ratio * 0.09) 其中num_batches为客户端本地的batch数, ratio为客户端通过决策后添加矫正项的比例
         # 模型性能成本为：model_cost = max(0, (client.target_acc - self.rs_test_acc[-1])
 
@@ -237,17 +238,14 @@ class S_SCAFFOLD(Server):
         ratio = model_size / total_model_size
 
         # 计算隐私成本
-        a = 0.85
-        b = 0.68
-        privacy_cost = (1 / math.pow(math.e, a * ratio + b) - 1 / math.pow(math.e, a * 1 + b)) / \
-                       (1 / math.pow(math.e, a * 0 + b) - 1 / math.pow(math.e, a * 1 + b))
+        privacy_value = privacy_cost(ratio)
         # 计算能耗成本
         energy_cost = (0.82 * client.num_batches / (60000 / self.args.num_clients / self.args.batch_size) + 0.09 + ratio * 0.09)
         # 计算模型性能成本
         model_cost = max(0, (client.target_acc - self.rs_test_acc[-1]))
         # 计算总成本
-        total_cost = privacy_cost + energy_cost + model_cost
-        return total_cost, privacy_cost, energy_cost, model_cost
+        total_cost = privacy_value + energy_cost + model_cost
+        return total_cost, privacy_value, energy_cost, model_cost
 
 
 
@@ -294,4 +292,3 @@ class S_SCAFFOLD(Server):
     #         loss.append(train_loss)
     #
     #     print("Averaged Test Accurancy: {:.4f}".format(test_acc))
-

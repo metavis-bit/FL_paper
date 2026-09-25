@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Datasets (keep .py scripts, ignore raw data)
+dataset/Cifar10/
+dataset/Cifar100/
+dataset/Shakespeare/
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Logs and experiment outputs
+logs/
+*.log
+
+# Archives and large artifacts
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Documents
+*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

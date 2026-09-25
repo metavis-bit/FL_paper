@@ -19,7 +19,9 @@ import numpy as np
 import os
 import torch
 
-data_root = "/home/wlb/Desktop/Adap-CTA/safe_FL/dataset"
+data_root = os.environ.get(
+    "FL_DATA_ROOT", os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../dataset"))
+)
 safe_proof_root = "/home/bjtc/wlb/FL/Prompt_FL/dataset"
 
 def read_data(args, dataset, idx, is_train=True):
@@ -127,4 +129,3 @@ def read_client_data_Shakespeare(dataset, idx, is_train=True):
         y_test = torch.Tensor(test_data['y']).type(torch.int64)
         test_data = [(x, y) for x, y in zip(X_test, y_test)]
         return test_data
-

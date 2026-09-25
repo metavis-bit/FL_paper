@@ -25,8 +25,8 @@ from sklearn.preprocessing import label_binarize
 from sklearn import metrics
 from utils.data_utils import read_client_data
 import random
-import math
 from sympy import symbols, Eq, solve, sqrt
+from flcore.privacy_cost import privacy_cost
 
 decision_ratio = 0.0
 total_layer = 62
@@ -242,11 +242,7 @@ class Client(object):
         return energy_cost
 
     def user_privacy(self, ratio=1.1):
-        a = 0.85
-        b = 0.68  # Resnet的隐私参数
-        privacy_cost = 1.5 / math.pow(math.e, a * (self.decision_l / total_layer) + b)
-        
-        return privacy_cost
+        return privacy_cost(self.decision_l / total_layer)
 
     def model_accuracy(self, ratio=1.1):
         target_acc = 0.55

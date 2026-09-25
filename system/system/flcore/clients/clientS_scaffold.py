@@ -2,6 +2,7 @@
 # Copyright (C) 2021  Jianqing Zhang
 import math
 import random
+from pathlib import Path
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -26,6 +27,7 @@ import math
 import matplotlib.pyplot as plt
 from flcore.clients.clientbase import Client
 from flcore.optimizers.fedoptimizer import S_SCAFFOLDOptimizer
+from flcore.attacks.adaptive import save_adaptive_observation
 from flcore.servers.inversefed import consts
 from flcore.servers.reconstructor import GradientReconstructor, privacy_score
 from flcore.servers.inversefed.pytorch_ssim_master import pytorch_ssim
@@ -51,8 +53,7 @@ class clientS_SCAFFOLD(Client):
         )
 
         self.client_c = []
-        for param in self.model.parameters():
-            self.client_c.append(torch.zeros_like(param))
+        self._client_c_initialized = False
         self.global_c = None
         self.global_model = None
 
@@ -65,6 +66,49 @@ class clientS_SCAFFOLD(Client):
         self.ratio = 1
         self.p_count = 0
         self.init_model_flag = True
+        self._adaptive_first_batch = None
+
+        # The paper initializes the client control variate with this client's
+        # private gradient at the initial model; the server never receives it.
+        self._initialize_client_c()
+
+    def _initialize_client_c(self):
+        if self._client_c_initialized:
+            return
+
+        loader = self.load_train_data()
+        self.model.to(self.device)
+        was_training = self.model.training
+        buffer_state = {
+            name: value.detach().clone() for name, value in self.model.named_buffers()
+        }
+        self.model.train()
+        sums = [torch.zeros_like(param) for param in self.model.parameters()]
+        batches = 0
+        try:
+            for x, y in loader:
+                if type(x) == type([]):
+                    x[0] = x[0].to(self.device)
+                else:
+                    x = x.to(self.device)
+                y = y.to(self.device)
+                self.model.zero_grad(set_to_none=True)
+                loss = self.loss(self.model(x), y)
+                gradients = torch.autograd.grad(loss, self.model.parameters())
+                for total, gradient in zip(sums, gradients):
+                    total.add_(gradient.detach())
+                batches += 1
+
+            if batches == 0:
+                raise RuntimeError(f"client {self.id} has no batch for cc initialization")
+            self.client_c = [total / batches for total in sums]
+        finally:
+            with torch.no_grad():
+                for name, value in self.model.named_buffers():
+                    value.copy_(buffer_state[name])
+            self.model.zero_grad(set_to_none=True)
+            self.model.train(was_training)
+        self._client_c_initialized = True
 
     def decision_l_make(self, client_decision_list, average_decision_l):
         # 决策前的cost
@@ -116,6 +160,16 @@ class clientS_SCAFFOLD(Client):
     def train(self,client_decision_list, average_decision_l):
         trainloader = self.load_train_data()
         self.num_batches = len(trainloader)
+        capture_dir = getattr(self.args, "adaptive_capture_dir", None)
+        capture_client = getattr(self.args, "adaptive_capture_client", None)
+        capture = bool(capture_dir) and (
+            capture_client is None or int(capture_client) == int(self.id)
+        )
+        self._adaptive_first_batch = None
+        pre_model_state = (
+            {name: value.detach().cpu() for name, value in self.model.state_dict().items()}
+            if capture else None
+        )
 
         self.model.train()
 
@@ -139,6 +193,12 @@ class clientS_SCAFFOLD(Client):
                 self.optimizer.zero_grad()
                 loss = self.loss(output, y)
                 loss.backward()
+                if capture and self._adaptive_first_batch is None:
+                    self._adaptive_first_batch = {
+                        "sc": [value.detach().clone() for value in self.global_c],
+                        "images": x.detach().clone(),
+                        "labels": y.detach().clone(),
+                    }
                 self.optimizer.step(self.global_c, self.client_c, self.decision_l)
                 # self.optimizer.step()
 
@@ -157,6 +217,28 @@ class clientS_SCAFFOLD(Client):
 
         self.train_time_cost['num_rounds'] += 1
         self.train_time_cost['total_cost'] += time.time() - start_time
+        if capture and self._adaptive_first_batch is not None:
+            _, delta_cc = self.delta_yc()
+            round_index = int(getattr(self, "_adaptive_round", 0))
+            output_path = Path(capture_dir) / (
+                f"round_{round_index:04d}_client_{int(self.id):04d}.pt"
+            )
+            save_adaptive_observation(
+                output_path,
+                self.model,
+                self._adaptive_first_batch["sc"],
+                delta_cc,
+                self._adaptive_first_batch["images"],
+                self._adaptive_first_batch["labels"],
+                self.learning_rate,
+                self.num_batches,
+                max_local_epochs,
+                round_index,
+                int(self.id),
+                self.decision_l,
+                num_classes=self.num_classes,
+                model_state_dict=pre_model_state,
+            )
 
     def set_parameters(self, model, global_c):
 

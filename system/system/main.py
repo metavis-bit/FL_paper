@@ -201,7 +201,7 @@ def run(args):
             server = SCAFFOLD(args, i)
 
         elif args.algorithm == "Adap-CTA":
-            server = S_SCAFFOLD(args, i)
+            server = exp(args, i)
 
         elif args.algorithm == "DPFedAvg":
             server = FedDPAvg(args, i)
@@ -366,6 +366,10 @@ if __name__ == "__main__":
 
     parser.add_argument('-sf', "--safe_flag", type=bool, default=True,
                         help="Whether to group and select clients at each round according to time cost")
+    parser.add_argument("--adaptive-capture-dir", default=None,
+                        help="Optional directory for Adap-CTA observation bundles")
+    parser.add_argument("--adaptive-capture-client", type=int, default=None,
+                        help="Capture only this client id when adaptive capture is enabled")
 
     args = parser.parse_args()
 
